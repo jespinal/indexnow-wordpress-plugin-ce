@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './components/App';
 import * as serviceWorker from './serviceWorker';
-import { initializeIcons } from "@fluentui/react/lib/Icons";
+import { initializeIcons } from "@fluentui/react";
 
 initializeIcons();
 
