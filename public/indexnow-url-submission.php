@@ -8,7 +8,7 @@
  * @wordpress-plugin
  * Plugin Name:       IndexNow Community Edition
  * Plugin URI:        https://github.com/jespinal/indexnow-wordpress-plugin-ce
- * Description:       Community-maintained IndexNow plugin for WordPress with modern compatibility
+ * Description:       Personal fork of IndexNow plugin for WordPress with modern compatibility
  * Version:           2.0.0
  * Author:            jespinal
  * Author URI:        https://github.com/jespinal
@@ -22,7 +22,7 @@
  *
  * Based on the original IndexNow plugin by Microsoft Bing
  * Original plugin: https://github.com/microsoft/indexnow-wordpress-plugin
- * This is a community-maintained fork with modern WordPress compatibility
+ * This is a personal fork with modern WordPress compatibility
  */
 
 // If this file is called directly, abort.

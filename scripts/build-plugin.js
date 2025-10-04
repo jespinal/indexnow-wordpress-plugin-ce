@@ -24,13 +24,13 @@ try {
   // Step 1: Clean previous builds COMPLETELY
   console.log('📦 Cleaning previous builds...');
   execSync('npm run clean', { stdio: 'inherit' });
-  
+
   // Additional cleanup to ensure no old files persist
   if (fs.existsSync('public/static')) {
     execSync('rm -rf public/static', { stdio: 'inherit' });
     console.log('✅ Cleaned old static files');
   }
-  
+
   if (fs.existsSync('public/index.html')) {
     execSync('rm -f public/index.html', { stdio: 'inherit' });
     console.log('✅ Cleaned old index.html');
@@ -48,11 +48,11 @@ try {
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="IndexNow CE WordPress Plugin"
+      content="IndexNow Community Edition WordPress Plugin"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>IndexNow CE</title>
+    <title>IndexNow Community Edition</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
