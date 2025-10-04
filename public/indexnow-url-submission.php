@@ -3,10 +3,10 @@
 /**
  * @link              https://github.com/jespinal/indexnow-wordpress-plugin-ce
  * @since             2.0.0
- * @package           IndexNow_Community
+ * @package           IndexNow_CommunityEdition
  *
  * @wordpress-plugin
- * Plugin Name:       IndexNow CE (Community Edition)
+ * Plugin Name:       IndexNow Community Edition
  * Plugin URI:        https://github.com/jespinal/indexnow-wordpress-plugin-ce
  * Description:       Community-maintained IndexNow plugin for WordPress with modern compatibility
  * Version:           2.0.0
@@ -19,7 +19,7 @@
  * Requires at least: 6.0
  * Tested up to: 6.8
  * Requires PHP: 8.3
- * 
+ *
  * Based on the original IndexNow plugin by Microsoft Bing
  * Original plugin: https://github.com/microsoft/indexnow-wordpress-plugin
  * This is a community-maintained fork with modern WordPress compatibility
