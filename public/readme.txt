@@ -1,21 +1,37 @@
-=== IndexNow Plugin ===
-Contributors: bingwebmastertools
-Plugin link: https://bing.com/indexnow
-Tags: seo, crawling
-Requires at least: 5.3
-Tested up to: 5.8
-Stable tag: 1.0.2
+=== IndexNow CE (Community Edition) ===
+Contributors: jespinal
+Plugin link: https://github.com/jespinal/indexnow-wordpress-plugin-ce
+Tags: seo, crawling, indexnow
+Requires at least: 6.0
+Tested up to: 6.8
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.txt
-Requires PHP: 5.6.20
+Requires PHP: 8.3
 
-IndexNow Plugin for WordPress enables site owners to instantly and automatically submit their new/updated
-pages to supporting search engines.
+Community-maintained IndexNow CE plugin for WordPress with modern compatibility. This is a fork of the original Microsoft IndexNow plugin, updated for current WordPress versions.
 
 
 == Description ==
 
-IndexNow Plugin for WordPress enables automated submission of URLs from WordPress sites to the multiple search engines without the need to register and verify your site with them. Once installed, the plugin will automatically generate and host the API key on your site. It detects page creation/update/ deletion in WordPress and automatically submits the URLs in the background. This ensures that search engines will always have the latest updates about your site.
+**Community-maintained fork of the original IndexNow plugin by Microsoft Bing**
+
+This plugin enables automated submission of URLs from WordPress sites to multiple search engines without the need to register and verify your site with them. Once installed, the plugin will automatically generate and host the API key on your site. It detects page creation/update/deletion in WordPress and automatically submits the URLs in the background. This ensures that search engines will always have the latest updates about your site.
+
+**What's new in this community fork:**
+* Modern WordPress compatibility (6.0+)
+* PHP 8.3+ support
+* Updated dependencies and security fixes
+* Community maintenance and support
+
+**Important Disclaimer:**
+* This is a personal fork maintained by jespinal
+* I am not an expert in IndexNow technology - just trying to make it work with modern WordPress
+* Use this plugin at your own risk and responsibility
+
+**Based on the original IndexNow plugin by Microsoft Bing**
+* Original plugin: https://github.com/microsoft/indexnow-wordpress-plugin
+* This fork includes modern WordPress compatibility updates
 
 Some other handy features included in the plugin:
 
@@ -35,9 +51,9 @@ This plugin was developed with love and coffee by the Bing Webmaster team.
 You just need to install the plugin and set up automatic submission of new pages in your WordPress site. It's that simple!
 
 - Log in to WordPress admin panel for your WordPress site. Click on 'Plugins > Add New'. 
-- Search for 'IndexNow Plugin' and install.
+- Search for 'IndexNow CE Plugin' and install.
 - Once installed, click on 'Activate' to enable plugin. 
-- Go to IndexNow admin page under 'Settings > IndexNow' and click 'Let's Get Started!'.
+- Go to IndexNow CE admin page under 'Settings > IndexNow CE' and click 'Let's Get Started!'.
 
 == Frequently Asked Questions ==
 
@@ -47,9 +63,9 @@ To generate a new API key, please de-activate and re-activate the plugin. It wil
 
 = How can I delete any stored data in my WordPress database? =
 
-You can go to ‘Plugins’ page from your WordPress sidebar and click on Deactivate under IndexNow plugin. This will remove the API key integration as well as any locally stored data about submitted URLs. Reactivating the plugin will present you with a clean slate. 
+You can go to 'Plugins' page from your WordPress sidebar and click on Deactivate under IndexNow CE plugin. This will remove the API key integration as well as any locally stored data about submitted URLs. Reactivating the plugin will present you with a clean slate. 
 
-= I cannot see all the URLs submitted on my dashboard? Where can I view all my submissions made via IndexNow plugin? 
+= I cannot see all the URLs submitted on my dashboard? Where can I view all my submissions made via IndexNow CE plugin? 
 
 We are providing a limited number of URLs submitted on the WordPress dashboard (20 successful and 20 failed). Please reach out to individual search engines for more details.
 
@@ -60,12 +76,19 @@ Indexing of URLs is specific and dependent on each search engine’s rules, plea
 
 == Changelog ==
 
-= 1.0.2 =
+= 2.0.0 (Community Fork) =
+* Modern WordPress compatibility (6.0+)
+* PHP 8.3+ support
+* Updated React 18, TypeScript 5, Fluent UI 9
+* Security fixes and performance improvements
+* Community-maintained fork of original Microsoft plugin
+
+= 1.0.2 (Original Microsoft Version) =
 * Allow plugin owners of WordPress site to access Indexing Insights in Bing Webmaster tools.
 
-= 1.0.1 =
+= 1.0.1 (Original Microsoft Version) =
 * Moving Admin menu under Settings.
 * Text domain fix and minor changes.
 
-= 1.0.0 =
+= 1.0.0 (Original Microsoft Version) =
 * Initial release.

@@ -2,8 +2,7 @@ import "../scss/Dashboard.scss";
 
 import * as React from "react";
 import { useState, useEffect } from "react";
-import { DefaultButton, PrimaryButton } from "@fluentui/react/lib/Button";
-import { Icon } from "@fluentui/react/lib/Icon";
+import { DefaultButton, PrimaryButton, Icon } from "@fluentui/react";
 import {
   GetApiSettings,
   GetStats,
@@ -14,14 +13,14 @@ import {
   GetApiKey,
   GetIndexNowInsightsUrl
 } from "./withDashboardData";
-import { ShimmeredDetailsList } from "@fluentui/react/lib/ShimmeredDetailsList";
+import { ShimmeredDetailsList } from "@fluentui/react";
 import {
   IColumn,
   SelectionMode,
   IChoiceGroupOption,
   ChoiceGroup,
   TextField,
-} from "@fluentui/react/lib/index";
+} from "@fluentui/react";
 import { format, formatISO } from "date-fns";
 import {
   IGetStatsResponse,

@@ -1,21 +1,28 @@
 <?php
 
 /**
- * @link              https://www.bing.com/webmaster
- * @since             0.01.01
- * @package           BWT_IndexNow
+ * @link              https://github.com/jespinal/indexnow-wordpress-plugin-ce
+ * @since             2.0.0
+ * @package           IndexNow_Community
  *
  * @wordpress-plugin
- * Plugin Name:       IndexNow
- * Plugin URI:        https://www.bing.com/webmaster
- * Description:       A small plugin to allow Url submissions to IndexNow.
- * Version:           1.0.1
- * Author:            Microsoft Bing
- * Author URI:        https://www.bing.com/indexnow
+ * Plugin Name:       IndexNow CE (Community Edition)
+ * Plugin URI:        https://github.com/jespinal/indexnow-wordpress-plugin-ce
+ * Description:       Community-maintained IndexNow plugin for WordPress with modern compatibility
+ * Version:           2.0.0
+ * Author:            jespinal
+ * Author URI:        https://github.com/jespinal
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       indexnow
+ * Text Domain:       indexnow-community
  * Domain Path:       /languages
+ * Requires at least: 6.0
+ * Tested up to: 6.8
+ * Requires PHP: 8.3
+ * 
+ * Based on the original IndexNow plugin by Microsoft Bing
+ * Original plugin: https://github.com/microsoft/indexnow-wordpress-plugin
+ * This is a community-maintained fork with modern WordPress compatibility
  */
 
 // If this file is called directly, abort.
@@ -27,7 +34,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Currently plugin version.
  */
 
-define( 'BWT_INDEXNOW_PLUGIN_VERSION', '1.0.1' );
+define( 'BWT_INDEXNOW_PLUGIN_VERSION', '2.0.0' );
 
 /**
  * Plugin name.
