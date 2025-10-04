@@ -24,7 +24,7 @@ export const Header: React.FunctionComponent = () => {
         <div className="headerLeftElements floatLeft">
           <span className="indexNowLogo desktopOnly">{logosvg}</span>
           <span className="pageTitle">
-          IndexNow Plugin
+          IndexNow Community Edition Plugin
           </span>
         </div>
         <div className="headerRightElements floatRight">

@@ -304,7 +304,7 @@ export const Dashboard: React.FunctionComponent<IDashboardProps> = (props) => {
              <div className="indexnow-CardColumn indexnow-CardColumn-1 indexnow-UrlSubmissions">
                 <Card tooltip="This feature allows you to view Indexing insights of your site in Bing webmaster tools" leadingIconName="Send" title="Indexnow Insights">
                     <p className="cardDescription">
-                              IndexNow Insights feature in Bing Webmaster tools can be used to monitor the indexing status and performance of the URLs submitted via IndexNow on Bing.
+                              IndexNow Insights feature in Bing Webmaster tools can be used to monitor the indexing status and performance of the URLs submitted via IndexNow Community Edition on Bing.
                     </p>
                           <p style={{ marginLeft: "25px" }} >
                         <DefaultButton onClick={viewInsightsOnClick} className="button submitButton" text="View Indexing Insights" />

@@ -351,3 +351,8 @@ MigrationBackup/
 
 # Documentation directory
 docs/
+
+# Build-generated files
+public/index.html
+public/static/
+public/asset-manifest.json

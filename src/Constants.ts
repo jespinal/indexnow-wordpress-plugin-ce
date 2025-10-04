@@ -1,6 +1,6 @@
 export class StringConstants {
   static readonly IndexNowLink = "https://www.indexnow.org/";
-  static readonly PluginInfoLink = "https://wordpress.org/plugins/indexnow/";
+  static readonly PluginInfoLink = "https://github.com/jespinal/indexnow-wordpress-plugin-ce/blob/master/README.md";
   static readonly ApiKeyValidationError =
     "Invalid API key! (Should be alphanumeric and 32 characters in length.)";
   static readonly UrlSubmitErrorMessage = "Invalid URL!";
