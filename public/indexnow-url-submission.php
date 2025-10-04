@@ -6,7 +6,7 @@
  * @package           IndexNow_Community
  *
  * @wordpress-plugin
- * Plugin Name:       IndexNow Community Edition
+ * Plugin Name:       IndexNow CE (Community Edition)
  * Plugin URI:        https://github.com/jespinal/indexnow-wordpress-plugin-ce
  * Description:       Community-maintained IndexNow plugin for WordPress with modern compatibility
  * Version:           2.0.0

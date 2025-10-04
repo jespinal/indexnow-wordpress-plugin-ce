@@ -1,6 +1,30 @@
-# IndexNow Plugin
+# IndexNow CE (Community Edition)
 
-IndexNow Plugin for WordPress enables automated submission of URLs from WordPress sites to the multiple search engines without the need to register and verify your site with them. Once installed, the plugin will automatically generate and host the API key on your site. It detects page creation/update/ deletion in WordPress and automatically submits the URLs in the background. This ensures that search engines will always have the latest updates about your site.
+**Community-maintained IndexNow plugin for WordPress with modern compatibility**
+
+IndexNow CE Plugin for WordPress enables automated submission of URLs from WordPress sites to the multiple search engines without the need to register and verify your site with them. Once installed, the plugin will automatically generate and host the API key on your site. It detects page creation/update/ deletion in WordPress and automatically submits the URLs in the background. This ensures that search engines will always have the latest updates about your site.
+
+## 🚀 Quick Start
+
+1. **Build the plugin**: `npm run build:plugin`
+2. **Install in WordPress**: Copy `public/` to `wp-content/plugins/indexnow-url-submission-ce/`
+3. **Activate** the plugin in WordPress admin
+
+## 📋 Requirements
+
+- **PHP**: 8.3+
+- **WordPress**: 6.0+
+- **Node.js**: 18+ (for building)
+
+## 📚 Documentation
+
+- **[QUICK_START.md](QUICK_START.md)** - Get started quickly
+- **[BUILD.md](BUILD.md)** - Complete build guide
+- **[INSTALL.md](INSTALL.md)** - Installation instructions
+
+## ⚠️ Important Notice
+
+This is a **community-maintained fork** of the original Microsoft IndexNow plugin, updated for modern WordPress and PHP versions. This is not an official Microsoft product.
 
 Some other handy features included in the plugin:
 
@@ -18,9 +42,9 @@ This plugin was developed with love and coffee by the Bing Webmaster team.
 You just need to install the plugin and set up automatic submission of new pages in your WordPress site. It's that simple!
 
 - Log in to WordPress admin panel for your WordPress site. Click on `Plugins > Add New`. 
-- Search for `IndexNow Plugin` and install.
+- Search for `IndexNow CE Plugin` and install.
 - Once installed, click on `Activate` to enable plugin.
-- Go to IndexNow admin page under `Settings > IndexNow` and click `Let's Get Started!`.
+- Go to IndexNow CE admin page under `Settings > IndexNow CE` and click `Let's Get Started!`.
 
 ## Frequently Asked Questions
 
@@ -30,9 +54,9 @@ To generate a new API key, please de-activate and re-activate the plugin. It wil
 
 - How can I delete any stored data in my WordPress database?
 
-You can go to `Plugins` page from your WordPress sidebar and click on `Deactivate` under `IndexNow plugin`. This will remove the API key integration as well as any locally stored data about submitted URLs. Reactivating the plugin will present you with a clean slate. 
+You can go to `Plugins` page from your WordPress sidebar and click on `Deactivate` under `IndexNow CE plugin`. This will remove the API key integration as well as any locally stored data about submitted URLs. Reactivating the plugin will present you with a clean slate. 
 
-- I cannot see all the URLs submitted on my dashboard? Where can I view all my submissions made via IndexNow plugin? 
+- I cannot see all the URLs submitted on my dashboard? Where can I view all my submissions made via IndexNow CE plugin? 
 
 We are providing a limited number of URLs submitted on the WordPress dashboard (20 successful and 20 failed). Please reach out to individual search engines for more details.
 

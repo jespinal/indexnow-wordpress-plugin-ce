@@ -1,4 +1,4 @@
-# Credits
+# Credits - IndexNow CE
 
 ## Original Plugin
 This plugin is based on the original IndexNow plugin by Microsoft Bing.
@@ -32,7 +32,7 @@ This is a community-maintained fork with modern WordPress compatibility updates.
 This plugin is licensed under GPL-2.0+ (GNU General Public License v2 or later).
 
 ## Attribution
-This plugin is a community-maintained fork of the original IndexNow plugin by Microsoft Bing. The original plugin is no longer maintained, so this fork provides modern WordPress compatibility while maintaining the same core functionality.
+This plugin is a community-maintained fork of the original IndexNow plugin by Microsoft Bing. The original plugin does not appear to be receiving regular updates, so this fork provides modern WordPress compatibility while maintaining the same core functionality.
 
 We thank Microsoft Bing for creating the original IndexNow plugin and making it available under the GPL-2.0+ license, which allows for community maintenance and improvement.
 
