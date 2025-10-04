@@ -1,4 +1,4 @@
-# IndexNow WordPress Plugin - Build Guide
+# IndexNow Community Edition WordPress Plugin - Build Guide
 
 ## 🚀 Quick Start
 
@@ -31,8 +31,6 @@ npm run build:plugin
 | `npm run build` | Build React frontend only (no copying) |
 | `npm run copy:assets` | Copy built assets to public/ directory |
 | `npm run clean` | Clean build and publish directories |
-| `npm start` | Start development server |
-| `npm test` | Run tests |
 
 ## 🔧 Development Setup
 
@@ -68,23 +66,9 @@ cp -r public/ /path/to/wordpress/wp-content/plugins/indexnow-url-submission-ce/
 
 ### What Gets Built
 1. **React Components** → Compiled JavaScript bundle
-2. **SCSS Styles** → Compiled CSS bundle  
+2. **SCSS Styles** → Compiled CSS bundle
 3. **TypeScript** → Compiled to JavaScript
 4. **Assets** → Optimized and copied to `public/static/`
-
-### Build Output
-```
-public/
-├── static/
-│   ├── js/
-│   │   └── main.[hash].js      # React application bundle
-│   └── css/
-│       └── main.[hash].css     # Styles bundle
-├── index.html                  # React app entry point
-├── indexnow-url-submission.php # Main plugin file
-├── admin/                      # WordPress admin files
-└── includes/                   # Plugin core files
-```
 
 ## 🐛 Troubleshooting
 
@@ -111,21 +95,11 @@ npm run build:plugin
 2. Run `npm run build:plugin`
 3. Refresh WordPress admin
 
-### Debugging
-- Check browser console for JavaScript errors
-- Check WordPress error logs for PHP errors
-- Use `npm run dev` for development guidance
-
-### Performance
-- Build files are optimized for production
-- JavaScript bundle: ~600KB (gzipped: ~175KB)
-- CSS bundle: ~12KB (gzipped: ~3KB)
-
 ## 🔄 Continuous Development
 
 For active development, you can:
 1. Make changes to React components
-2. Run `npm run build:plugin` 
+2. Run `npm run build:plugin`
 3. Refresh WordPress admin
 4. Repeat as needed
 
@@ -138,5 +112,3 @@ For production deployment:
 2. Rename the `public/` directory to `indexnow-url-submission-ce/`
 3. Zip the `indexnow-url-submission-ce/` directory
 4. Upload to WordPress Plugin Directory or distribute
-
-The `public/` directory contains everything needed for the WordPress plugin.

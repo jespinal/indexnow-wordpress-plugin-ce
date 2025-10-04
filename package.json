@@ -81,7 +81,7 @@
     "copy:assets": "rimraf public/static && cp -r build/static public/ && cp build/index.html public/",
     "test": "node scripts/test.js",
     "clean": "rimraf build publish",
-    "zip": "mkdir publish && cd build/ && copy ..\\*.md . && copy ..\\LICENSE.txt . && rimraf index.html && bestzip ../publish/IndexNow.zip *"
+    "zip": "mkdir publish && cd build/ && copy ..\\*.md . && copy ..\\LICENSE.txt . && rimraf index.html && bestzip ../publish/IndexNow-CE.zip *"
   },
   "eslintConfig": {
     "extends": "react-app"
