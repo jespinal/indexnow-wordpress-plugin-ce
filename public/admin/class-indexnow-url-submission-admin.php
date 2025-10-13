@@ -139,6 +139,31 @@ class BWT_IndexNow_Admin {
 		return array_merge($settings_link, $links);
 	}
 
+	/**
+	 * Add plugin row meta links (GitHub, etc.).
+	 *
+	 * @param array $existing Existing row-meta links.
+	 * @param string $plugin_file Current plugin file basename.
+	 * @return array Modified row-meta links.
+	 */
+	public function add_plugin_row_meta($existing, $plugin_file)
+	{
+		$plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . 'indexnow-url-submission.php' );
+		if ($plugin_file !== $plugin_basename) {
+			return $existing;
+		}
+
+		$new_links = array(
+			sprintf(
+				'<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>',
+				esc_url( 'https://github.com/jespinal/indexnow-wordpress-plugin-ce' ),
+				__( 'GitHub', 'indexnow' )
+			),
+		);
+
+		return array_merge($existing, $new_links);
+	}
+
 	// This function checks the type of update on a page/post and accordingly calls the submit api if enabled
 	public function on_post_published($new_status, $old_status, $post)
 	{

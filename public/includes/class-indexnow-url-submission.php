@@ -123,6 +123,9 @@ class BWT_IndexNow {
 		$plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . 'indexnow-url-submission.php' );
 		$this->loader->add_filter( 'plugin_action_links_' . $plugin_basename, $plugin_admin, 'add_action_links' );
 
+		// Add row-meta links (Visit site, GitHub) under the plugin description.
+		$this->loader->add_filter( 'plugin_row_meta', $plugin_admin, 'add_plugin_row_meta', 10, 2 );
+
 		// Add url submit action & post publishing.
 		$this->loader->add_action( 'transition_post_status', $plugin_admin, 'on_post_published', 10, 3 );
 	}
