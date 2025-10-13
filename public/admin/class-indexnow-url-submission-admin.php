@@ -146,8 +146,7 @@ class BWT_IndexNow_Admin {
 	 * @param string $plugin_file Current plugin file basename.
 	 * @return array Modified row-meta links.
 	 */
-	public function add_plugin_row_meta($existing, $plugin_file)
-	{
+	public function add_plugin_row_meta($existing, $plugin_file) {
 		$plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . 'indexnow-url-submission.php' );
 		if ($plugin_file !== $plugin_basename) {
 			return $existing;
