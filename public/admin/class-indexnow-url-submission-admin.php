@@ -142,8 +142,8 @@ class BWT_IndexNow_Admin {
 	/**
 	 * Add plugin row meta links (GitHub, etc.).
 	 *
-	 * @param array $existing Existing row-meta links.
-	 * @param string $plugin_file Current plugin file basename.
+	 * @param array  $existing    Array of existing plugin row meta links.
+	 * @param string $plugin_file Plugin file path relative to the plugins directory.
 	 * @return array Modified row-meta links.
 	 */
 	public function add_plugin_row_meta($existing, $plugin_file) {
